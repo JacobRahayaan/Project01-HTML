@@ -3,6 +3,12 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
+body{
+  background-image: url('gambar/images5.jpeg');
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: multiply;
+}
 
 .wrapper{
     display: flex;
@@ -57,6 +63,15 @@
   font-size: 20px;
 }
 
+.konten img{
+  height: 20px;
+  width: 20px;
+}
+
+.konten ul{
+  list-style-type: none;
+}
+
 
 .form-group label{
   display: block;
@@ -93,7 +108,7 @@
 }
 
 .btn:active{
-  background-color: yellow;
+  background-color: cyan;
 }
 
 /*blog*/
@@ -113,10 +128,25 @@
   padding: 20px;
 }
 
+.main #Blog1>img{
+  height: 200px;
+  width: 400px;
+}
+
 .main #Blog2 {
   padding: 20px;
 }
 
+.main #Blog2>img{
+  height: 200px;
+  width: 400px;
+}
+
 .main #Blog3{
   padding: 20px;
+}
+
+.main #Blog3>img{
+  height: 200px;
+  width: 400px;
 }
